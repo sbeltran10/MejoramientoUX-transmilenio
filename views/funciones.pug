@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    .container
+        .row
+            button.funciones(onclick='cambiarVistaDB("#content-contador")') Pantalla contador
+            button.funciones(onclick='cambiarVistaDB("#content-incentivo")') Pantalla incentivo
+            button.funciones(onclick='cambiarVistaDB("#content-info-general")') Pantalla info general
+        .row
+            h1 contador
+            button.funciones(onclick='aumentar()') Aumentar +
+            button.funciones(onclick='disminuir()') Disminuir -
+            input#contador-numero(type="text", name="contadorservicio", placeholder="numero de pasajeros")
+            input#contador-servicio(type="text", name="nombreservicio", placeholder="nombre servicio")
+            button.funciones(onclick='actualizardatosContador()') actualizar
+        .row
+            h1 incentivo
+        .row
+            h1 info general
+    

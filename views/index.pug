@@ -1,0 +1,78 @@
+extends layout
+
+block content
+  .image-logo
+    img(src= "/images/transmi-logo.png")
+    span.txt-estacion Estacion Av. El Dorado
+  .container
+    .row
+      .col-md-12
+        #content-transmi
+          #content-contador
+            .container
+              .row
+                .col-md-2
+                  .titulo-servicio-contador Servicio
+                .col-md-2
+                  #imagen-servicio-contador
+                    #txt-servicio-contador.txt-servicio B1
+                .col-md-8
+                  .titulo-servicio-texto
+                    p Numero de pasajeros en el servicio:
+              .row
+                .col-md-12
+                  #contador-pasajeros 50
+          #content-incentivo
+              .container
+                .row
+                  .col-md-10
+                    .titulo-servicio-incentivo
+                      p Gracias por hacer la fila para ingresar al servicio 
+                  .col-md-2
+                    #imagen-servicio-incentivo
+                      .txt-servicio B1
+                .row
+                  .col-md-8
+                    .incentivo-texto Bonificación:
+                  .col-md-4
+                    .incentivo-bonificacion +100
+                .row
+                  .col-md-8
+                    .incentivo-texto Nuevo Saldo:
+                  .col-md-4
+                    .incentivo-total 2100
+          #content-info-general
+            .container
+              .row.item-info
+                .col-md-2
+                  .titulo-servicio-info Servicio
+                .col-md-2
+                  #imagen-servicio-contador
+                    .txt-servicio B1
+                .col-md-8
+                  .info-texto
+                    | Se encuentra a
+                    span.distancia-bus  x cuadras (x minutos)
+                    |  y tiene una ocupacion de
+                    span.pasajeros-bus  x pasajeros
+              .row.item-info
+                .col-md-2
+                  .titulo-servicio-info Servicio
+                .col-md-2
+                  #imagen-servicio-contador
+                    .txt-servicio B1
+                .col-md-8
+                  .info-texto
+                    | Se encuentra a
+                    span.distancia-bus  x cuadras (x minutos)
+                    |  y tiene una ocupacion de
+                    span.pasajeros-bus  x pasajeros
+                  
+                
+
+             
+              
+
+
+  
+  

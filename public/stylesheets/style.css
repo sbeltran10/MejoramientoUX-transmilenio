@@ -1,0 +1,106 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.image-logo{
+  background-color: rgb(216,16,45);
+  margin-bottom: 3em;
+  padding-left: 2em
+}
+
+.txt-estacion{
+  margin-left: 5%;
+  font-size: 2.5em;
+  color: white
+}
+
+#imagen-servicio-contador{
+    width:8em;
+    height:8em;
+    background:blue;
+    border: 0.2em solid white;
+    border-radius: 1.5em;
+    margin: 0 auto;
+}
+
+.txt-servicio{
+  color: white;
+  text-align: center;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+.titulo-servicio-contador{
+  font-size: 3.5em;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.titulo-servicio-texto{
+  font-size: 3.5em;
+}
+
+#contador-pasajeros{
+  margin-top: 10%;
+  font-size: 25em;
+  text-align: center;
+}
+
+.titulo-servicio-incentivo{
+  font-size: 3.1em;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#imagen-servicio-incentivo{
+    width:8em;
+    height:8em;
+    background:blue;
+    border: 0.2em solid white;
+    border-radius: 1.5em;
+}
+
+.incentivo-texto{
+  margin-top: 15%;
+  font-size: 8em;
+}
+
+.incentivo-bonificacion{
+  margin-top: 30%;
+  font-size: 8em;
+  color: green;
+}
+
+.incentivo-total{
+  margin-top: 30%;
+  font-size: 8em;
+  color: blue;
+}
+
+.item-info{
+  margin-top: 10em 
+}
+
+.titulo-servicio-info{
+  margin-top: 10%;
+  font-size: 4em;
+}
+
+.info-texto{
+  font-size: 4em;
+}
+
+.distancia-bus, .pasajeros-bus{
+  color: blue
+}
+
+button.funciones{
+  font-size: 3em;
+  margin: 0.5em
+}
