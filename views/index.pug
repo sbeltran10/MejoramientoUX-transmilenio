@@ -3,7 +3,7 @@ extends layout
 block content
   .image-logo
     img(src= "/images/transmi-logo.png")
-    span.txt-estacion Estacion Av. El Dorado
+    span#txt-estacion Estacion Av. El Dorado
   .container
     .row
       .col-md-12
@@ -30,43 +30,43 @@ block content
                       p Gracias por hacer la fila para ingresar al servicio 
                   .col-md-2
                     #imagen-servicio-incentivo
-                      .txt-servicio B1
+                      #incentivo-servicio.txt-servicio B1
                 .row
                   .col-md-8
                     .incentivo-texto Bonificación:
                   .col-md-4
-                    .incentivo-bonificacion +100
+                    #incentivo-txt-bonificacion +100
                 .row
                   .col-md-8
                     .incentivo-texto Nuevo Saldo:
                   .col-md-4
-                    .incentivo-total 2100
+                    #incentivo-txt-total 2100
           #content-info-general
             .container
               .row.item-info
                 .col-md-2
                   .titulo-servicio-info Servicio
                 .col-md-2
-                  #imagen-servicio-contador
-                    .txt-servicio B1
+                  #imagen-servicio-general1
+                    #txt-servicio-general1.txt-servicio B1
                 .col-md-8
                   .info-texto
                     | Se encuentra a
-                    span.distancia-bus  x cuadras (x minutos)
+                    span#distancia-general1.distancia-bus  x cuadras (x minutos)
                     |  y tiene una ocupacion de
-                    span.pasajeros-bus  x pasajeros
+                    span#pasajeros-general1.pasajeros-bus  x pasajeros
               .row.item-info
                 .col-md-2
                   .titulo-servicio-info Servicio
                 .col-md-2
-                  #imagen-servicio-contador
-                    .txt-servicio B1
+                  #imagen-servicio-general2
+                    #txt-servicio-general2.txt-servicio B1
                 .col-md-8
                   .info-texto
                     | Se encuentra a
-                    span.distancia-bus  x cuadras (x minutos)
+                    span#distancia-general2.distancia-bus  x cuadras (x minutos)
                     |  y tiene una ocupacion de
-                    span.pasajeros-bus  x pasajeros
+                    span#pasajeros-general2.pasajeros-bus  x pasajeros
                   
                 
 

@@ -3,18 +3,36 @@ extends layout
 block content
     .container
         .row
+            h1 general
             button.funciones(onclick='cambiarVistaDB("#content-contador")') Pantalla contador
             button.funciones(onclick='cambiarVistaDB("#content-incentivo")') Pantalla incentivo
             button.funciones(onclick='cambiarVistaDB("#content-info-general")') Pantalla info general
+            input#estacion-nombre(type="text", name="contadorservicio", placeholder="nombre de la estacion")
+            button.funciones(onclick='cambiarNombreEstacionDB()') Cambiar nombre estacion
         .row
             h1 contador
             button.funciones(onclick='aumentar()') Aumentar +
             button.funciones(onclick='disminuir()') Disminuir -
-            input#contador-numero(type="text", name="contadorservicio", placeholder="numero de pasajeros")
-            input#contador-servicio(type="text", name="nombreservicio", placeholder="nombre servicio")
+            input#contador-numero(type="text", name="contadornumero", placeholder="numero de pasajeros")
+            input#contador-servicio(type="text", name="contadorservicio", placeholder="nombre servicio")
             button.funciones(onclick='actualizardatosContador()') actualizar
         .row
             h1 incentivo
+            input#incentivo-servicio(type="text", name="incentivoservicio", placeholder="nombre del servicio")
+            input#incentivo-bonificacion(type="text", name="incentivobono", placeholder="valor bonificacion")
+            input#incentivo-saldo(type="text", name="incentivosaldo", placeholder="valor saldo nuevo")
+            button.funciones(onclick='actualizarIncentivoDB()') actualizar
         .row
             h1 info general
+            h2 servicio 1
+            input#general-servicio1(type="text", name="incentivoservicio", placeholder="nombre del servicio")
+            input#general-cuadras1(type="text", name="incentivobono", placeholder="numero cuadras")
+            input#general-minutos1(type="text", name="incentivosaldo", placeholder="numero minutos")
+            input#general-pasajeros1(type="text", name="incentivosaldo", placeholder="numero pasajeros")
+            h2 servicio 2
+            input#general-servicio2(type="text", name="incentivoservicio", placeholder="nombre del servicio")
+            input#general-cuadras2(type="text", name="incentivobono", placeholder="numero cuadras")
+            input#general-minutos2(type="text", name="incentivosaldo", placeholder="numero minutos")
+            input#general-pasajeros2(type="text", name="incentivosaldo", placeholder="numero pasajeros")
+            button.funciones(onclick='actualizarGeneralDB()') actualizar
     

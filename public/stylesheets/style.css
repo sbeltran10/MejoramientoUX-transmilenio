@@ -12,7 +12,7 @@ a {
   padding-left: 2em
 }
 
-.txt-estacion{
+#txt-estacion{
   margin-left: 5%;
   font-size: 2.5em;
   color: white
@@ -71,16 +71,16 @@ a {
   font-size: 8em;
 }
 
-.incentivo-bonificacion{
+#incentivo-txt-bonificacion{
   margin-top: 30%;
   font-size: 8em;
   color: green;
 }
 
-.incentivo-total{
+#incentivo-txt-total{
   margin-top: 30%;
   font-size: 8em;
-  color: blue;
+  color: #191975;
 }
 
 .item-info{
@@ -89,7 +89,7 @@ a {
 
 .titulo-servicio-info{
   margin-top: 10%;
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 .info-texto{
@@ -97,10 +97,26 @@ a {
 }
 
 .distancia-bus, .pasajeros-bus{
-  color: blue
+  color: #191975
 }
 
 button.funciones{
   font-size: 3em;
   margin: 0.5em
+}
+
+#imagen-servicio-general1{
+    width:8em;
+    height:8em;
+    background:#191975;
+    border: 0.2em solid white;
+    border-radius: 1.5em;
+}
+
+#imagen-servicio-general2{
+    width:8em;
+    height:8em;
+    background:#191975;
+    border: 0.2em solid white;
+    border-radius: 1.5em;
 }
