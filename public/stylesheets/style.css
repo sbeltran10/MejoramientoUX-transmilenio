@@ -101,27 +101,21 @@ height: auto;
 }
 
 .item-info{
-  margin-top: 1em 
+  margin-top: 2em 
 }
 
 .titulo-servicio-info{
   margin-top: 5%;
-  font-size: 3em;
+  font-size: 2.7em;
   float: left
 }
 
 .info-texto{
-  font-size: 3em;
-  float: left
+  font-size: 2.5em;
 }
 
 .distancia-bus, .pasajeros-bus{
-  color: #191975
-}
-
-button.funciones{
-  font-size: 3em;
-  margin: 0.5em
+  color: blue
 }
 
 #imagen-servicio-general1{
@@ -146,4 +140,10 @@ button.funciones{
     border-radius: 1.5em;
     margin-right: 4.5%;
     float: left
+}
+
+
+button.funciones{
+  font-size: 3em;
+  margin: 0.5em
 }
