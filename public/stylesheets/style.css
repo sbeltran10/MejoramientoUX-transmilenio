@@ -131,6 +131,8 @@ button.funciones{
     border-radius: 1.5em;
 }
 
-.container{
-   max-width: 150em !important; 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1000px;
+    }
 }
