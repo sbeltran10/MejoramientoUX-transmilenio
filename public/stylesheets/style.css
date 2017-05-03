@@ -21,7 +21,7 @@ height: auto;
 
 #txt-estacion{
   margin-left: 5%;
-  font-size: 3em;
+  font-size: 2.5em;
   color: white
 }
 
@@ -130,4 +130,8 @@ button.funciones{
     background:#191975;
     border: 0.2em solid white;
     border-radius: 1.5em;
+}
+
+.container{
+   max-width: 100em !important; 
 }
