@@ -101,16 +101,18 @@ height: auto;
 }
 
 .item-info{
-  margin-top: 10em 
+  margin-top: 1em 
 }
 
 .titulo-servicio-info{
-  margin-top: 10%;
-  font-size: 3.5em;
+  margin-top: 5%;
+  font-size: 3em;
+  float: left
 }
 
 .info-texto{
-  font-size: 4em;
+  font-size: 3em;
+  float: left
 }
 
 .distancia-bus, .pasajeros-bus{
@@ -123,23 +125,25 @@ button.funciones{
 }
 
 #imagen-servicio-general1{
-    width:8em;
+     width:8em;
     height:8em;
-    background:#191975;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    background:blue;
     border: 0.2em solid white;
     border-radius: 1.5em;
+    margin-right: 4.5%;
+    float: left
 }
 
 #imagen-servicio-general2{
-    width:8em;
+     width:8em;
     height:8em;
-    background:#191975;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    background:blue;
     border: 0.2em solid white;
     border-radius: 1.5em;
-}
-
-@media (min-width: 1200px) {
-    .container{
-        max-width: 1000px;
-    }
+    margin-right: 4.5%;
+    float: left
 }
