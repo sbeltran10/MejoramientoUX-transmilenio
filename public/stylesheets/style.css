@@ -6,6 +6,13 @@ a {
   color: #00B7FF;
 }
 
+#img-transmi{
+height: auto; 
+    width: auto; 
+    max-width: 6em; 
+    max-height: 6em;
+}
+
 .image-logo{
   background-color: rgb(216,16,45);
   margin-bottom: 3em;
@@ -14,17 +21,18 @@ a {
 
 #txt-estacion{
   margin-left: 5%;
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: white
 }
 
 #imagen-servicio-contador{
-    width:8em;
-    height:8em;
+    width:6em;
+    height:6em;
     background:blue;
     border: 0.2em solid white;
     border-radius: 1.5em;
-    margin: 0 auto;
+    float: left;
+    margin-right: 4.5%
 }
 
 .txt-servicio{
@@ -33,22 +41,25 @@ a {
   padding-top: 25%;
   padding-bottom: 25%;
   font-weight: bold;
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 
 .titulo-servicio-contador{
-  font-size: 3.5em;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  font-size: 2em;
+  padding: 4.5%;
+    float: left
+
 }
 
 .titulo-servicio-texto{
-  font-size: 3.5em;
+  font-size: 2em;
+  padding-top: 1.5%;
+    
 }
 
 #contador-pasajeros{
   margin-top: 10%;
-  font-size: 25em;
+  font-size: 15em;
   text-align: center;
 }
 
