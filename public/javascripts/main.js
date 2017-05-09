@@ -84,6 +84,7 @@ function cambiarNombreEstacionDB() {
 
 function cambiarNombreEstacion(nombreEstacion) {
     $("#txt-estacion").html(nombreEstacion);
+    $("#servicios-txt-estacion").html("Servicios de " + nombreEstacion);
 }
 
 function aumentar() {
