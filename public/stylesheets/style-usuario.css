@@ -1,0 +1,22 @@
+body{
+    background-color: #990000
+}
+
+#imagen-portada{
+    margin-top: 5em;
+    min-width: 5em;
+}
+
+#img-portada-transmi{
+    display: block;
+    margin: 0 auto
+}
+
+#estacion-buscador{
+    margin-top: 10em;
+}
+
+#boton-redireccionar-servicios{
+    margin-top: 3em;
+    width: 100%
+}
