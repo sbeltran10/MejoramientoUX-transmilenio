@@ -3,11 +3,11 @@ extends layout-inicio
 block content
     .container
         .row
-            .col-lg-12
+            .col-xs-12
                 #imagen-portada
                     img#img-portada-transmi(src= "/images/logo-portada-transmi.png")
         .row
-            .col-lg-12
+            .col-xs-12
                 select#estacion-buscador.form-control
                     option(value="" disabled selected) Elige una estacion de transmilenio
                     option(value="Heroes") Heroes
@@ -22,5 +22,5 @@ block content
                     option(value="Calle 142") Calle 142
                     option(value="Calle 146") Calle 146
         .row
-            .col-lg-12
+            .col-xs-12
                 a#boton-redireccionar-servicios(href="#" class="btn btn-warning" role="button") Verificar servicios
