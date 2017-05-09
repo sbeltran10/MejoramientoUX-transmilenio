@@ -1,14 +1,14 @@
 $(document).ready(function () {
 
-    for (var i = 0; i < 5; i++) {
+    for (var i = 0; i < 10; i++) {
         var itemServicio = $('<div class="item-servicio"></div>');
         var item = $('<div class="row row-imagen"><div class="col-lg-12"></div></div>');
         var iconoServicio = $('<div id="imagen-servicio-'+i+'" class="imagen-servicio"><div id="txt-servicio-' + i + '" class="txt-servicio">B1</div></div>');
         item.append(iconoServicio);
 
-        var inc = Math.floor(Math.random() * i) + 1;
+        var inc = Math.floor(Math.random() * (i+1)) + 1;
 
-        var infoTiempo = $('<div class="row row-tiempo"><div class="col-lg-12">Se encuentra a <span class="txt-tiempo">' + (i + 1 + inc) + ' minutos</span></div></div>');
+        var infoTiempo = $('<div class="row row-tiempo"><div class="col-lg-12">Se encuentra a <span class="txt-tiempo">' + (i + inc) + ' minutos</span></div></div>');
         item.append(infoTiempo);
 
         var rand = Math.floor(Math.random() * 4) + 1;
@@ -60,6 +60,8 @@ $(document).ready(function () {
             $('#txt-servicio-' + i).html("J72");
             colorservicio("J72",$('#imagen-servicio-' + i));
         }
+
+        
     }
 
 });
