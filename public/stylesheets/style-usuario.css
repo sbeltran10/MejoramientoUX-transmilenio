@@ -9,16 +9,21 @@ body{
 
 #img-portada-transmi{
     display: block;
-    margin: 0 auto;
-    max-width: 8em; 
-    max-height: 8em;
+    margin: 2em auto;
+    max-width: 11em; 
+    max-height: 11em;
 }
 
 #estacion-buscador{
-    margin-top: 5em;
+    width: 80%;
+    display: block;
+    margin: 2em auto;
 }
 
 #boton-redireccionar-servicios{
-    margin-top: 3em;
-    width: 100%
+    width: 80%;
+    display: block;
+    margin: 2em auto;
+    font-weight: bold;
+    font-size: 1.5em
 }
