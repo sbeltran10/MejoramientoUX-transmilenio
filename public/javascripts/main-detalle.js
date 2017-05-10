@@ -60,9 +60,28 @@ $(document).ready(function () {
             $('#txt-servicio-' + i).html("J72");
             colorservicio("J72", $('#imagen-servicio-' + i));
         }
-
-
     }
+
+    var itemServicio = $('<div id="item-' + 20 + '" class="item-servicio"></div>');
+    var item = $('<div class="row row-imagen"><div class="col-lg-12"></div></div>');
+    var iconoServicio = $('<div id="imagen-servicio-' + 20 + '" class="imagen-servicio"><div id="txt-servicio-' + 20 + '" class="txt-servicio">B1</div></div>');
+    item.append(iconoServicio);
+
+    var inc = Math.floor(Math.random() * (20 + 1)) + 1;
+
+    var infoTiempo = $('<div class="row row-tiempo"><div class="col-lg-12">Se encuentra a <span class="txt-tiempo">' + 8 + ' minutos</span></div></div>');
+    item.append(infoTiempo);
+
+    var infoOcupacion = $('<div class="row row-ocupacion"><div class="col-lg-12">Tiene una ocupación <span class="nivel-ocupacion-muy-alta">muy alta</span></div></div>');
+    item.append(infoOcupacion);
+
+
+    itemServicio.append(item);
+    $("#lista-servicios").append(itemServicio);
+
+    $('#txt-servicio-' + 20).html("J24");
+    colorservicio("J24", $('#imagen-servicio-' + 20));
+
 
     $('#boton-filtrar').click(function (e) { e.preventDefault(); filtrar($("#filtrar-servicio").val()); return false; });
 });
