@@ -82,6 +82,26 @@ $(document).ready(function () {
     $('#txt-servicio-' + 20).html("J24");
     colorservicio("J24", $('#imagen-servicio-' + 20));
 
+    var itemServicio = $('<div id="item-' + 21 + '" class="item-servicio"></div>');
+    var item = $('<div class="row row-imagen"><div class="col-lg-12"></div></div>');
+    var iconoServicio = $('<div id="imagen-servicio-' + 21 + '" class="imagen-servicio"><div id="txt-servicio-' + 21 + '" class="txt-servicio">B1</div></div>');
+    item.append(iconoServicio);
+
+    var inc = Math.floor(Math.random() * (20 + 1)) + 1;
+
+    var infoTiempo = $('<div class="row row-tiempo"><div class="col-lg-12">Se encuentra a <span class="txt-tiempo">' + 7 + ' minutos</span></div></div>');
+    item.append(infoTiempo);
+
+    var infoOcupacion = $('<div class="row row-ocupacion"><div class="col-lg-12">Tiene una ocupación <span class="nivel-ocupacion-baja">baja</span></div></div>');
+    item.append(infoOcupacion);
+
+
+    itemServicio.append(item);
+    $("#lista-servicios").append(itemServicio);
+
+    $('#txt-servicio-' + 21).html("C15");
+    colorservicio("C15", $('#imagen-servicio-' + 21));
+
 
     $('#boton-filtrar').click(function (e) { e.preventDefault(); filtrar($("#filtrar-servicio").val()); return false; });
 });
