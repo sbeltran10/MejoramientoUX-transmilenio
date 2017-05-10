@@ -62,12 +62,12 @@ $(document).ready(function () {
         }
     }
 
-    var itemServicio = $('<div id="item-' + 16 + '" class="item-servicio"></div>');
+    var itemServicio = $('<div id="item-' + 15 + '" class="item-servicio"></div>');
     var item = $('<div class="row row-imagen"><div class="col-lg-12"></div></div>');
-    var iconoServicio = $('<div id="imagen-servicio-' + 16 + '" class="imagen-servicio"><div id="txt-servicio-' + 16 + '" class="txt-servicio">B1</div></div>');
+    var iconoServicio = $('<div id="imagen-servicio-' + 15 + '" class="imagen-servicio"><div id="txt-servicio-' + 15 + '" class="txt-servicio">B1</div></div>');
     item.append(iconoServicio);
 
-    var inc = Math.floor(Math.random() * (16 + 1)) + 1;
+    var inc = Math.floor(Math.random() * (15 + 1)) + 1;
 
     var infoTiempo = $('<div class="row row-tiempo"><div class="col-lg-12">Se encuentra a <span class="txt-tiempo">' + 8 + ' minutos</span></div></div>');
     item.append(infoTiempo);
@@ -79,15 +79,15 @@ $(document).ready(function () {
     itemServicio.append(item);
     $("#lista-servicios").append(itemServicio);
 
-    $('#txt-servicio-' + 16).html("J24");
-    colorservicio("J24", $('#imagen-servicio-' + 16));
+    $('#txt-servicio-' + 15).html("J24");
+    colorservicio("J24", $('#imagen-servicio-' + 15));
 
-    var itemServicio = $('<div id="item-' + 17 + '" class="item-servicio"></div>');
+    var itemServicio = $('<div id="item-' + 16 + '" class="item-servicio"></div>');
     var item = $('<div class="row row-imagen"><div class="col-lg-12"></div></div>');
-    var iconoServicio = $('<div id="imagen-servicio-' + 17 + '" class="imagen-servicio"><div id="txt-servicio-' + 17 + '" class="txt-servicio">C15</div></div>');
+    var iconoServicio = $('<div id="imagen-servicio-' + 16 + '" class="imagen-servicio"><div id="txt-servicio-' + 16 + '" class="txt-servicio">C15</div></div>');
     item.append(iconoServicio);
 
-    var inc = Math.floor(Math.random() * (16 + 1)) + 1;
+    var inc = Math.floor(Math.random() * (15 + 1)) + 1;
 
     var infoTiempo = $('<div class="row row-tiempo"><div class="col-lg-12">Se encuentra a <span class="txt-tiempo">' + 7 + ' minutos</span></div></div>');
     item.append(infoTiempo);
@@ -99,8 +99,8 @@ $(document).ready(function () {
     itemServicio.append(item);
     $("#lista-servicios").append(itemServicio);
 
-    $('#txt-servicio-' + 17).html("C15");
-    colorservicio("C15", $('#imagen-servicio-' + 17));
+    $('#txt-servicio-' + 16).html("C15");
+    colorservicio("C15", $('#imagen-servicio-' + 16));
 
 
     $('#boton-filtrar').click(function (e) { e.preventDefault(); filtrar($("#filtrar-servicio").val()); return false; });
