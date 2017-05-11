@@ -30,13 +30,13 @@ body{
     background-color: white
 }
 #img-encabezado-transmi{
-     max-width: 5em; 
-    max-height: 5em;
-    margin: 1em
+     max-width: 6em; 
+    max-height: 6em;
+    margin: 0.5em
 }
 
 #servicios-txt-estacion{
-    color: white;
+    color: black;
     font-size: 1.5em;
 }
 
